@@ -31,7 +31,7 @@ export default function Home() {
           onChange={(e) => setQuery(e.target.value)}
           onKeyPress={handleKeyPress}
         />
-        <Button type="submit" onClick={handleSearch}>Buscar</Button>
+        <Button type="submit" className={"bg-black text-white cursor-pointer"} onClick={handleSearch}>Buscar</Button>
       </div>
     </div>
   );
