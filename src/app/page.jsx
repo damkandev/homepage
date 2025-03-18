@@ -42,8 +42,8 @@ export default function Home() {
             <Link href={"https://www.youtube.com/"} className="mr-4">YouTube</Link>
             <Link href={"https://finance.yahoo.com/"} className="mr-4">Finances</Link>
             <Link href={"https://web.whatsapp.com/"} className="mr-4">Whatsapp</Link>
-            <Link href={"https://web.whatsapp.com/"} className="mr-4">Docs</Link>
-            <Link href={"https://web.whatsapp.com/"} className="mr-4">Sheets</Link>
+            <Link href={"https://docs.google.com/document/u/0/"} className="mr-4">Docs</Link>
+            <Link href={"https://docs.google.com/spreadsheets/u/0/"} className="mr-4">Sheets</Link>
           </div>
           <div className="flex gap-4 mt-12">
             <StockCard stock={"USD"} title={"USD -> CLP"} button={"Ver más"} />
